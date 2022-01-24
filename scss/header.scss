@@ -1,0 +1,35 @@
+h1 {
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+}
+
+.press::after {
+    content: src("moto.gif");
+    height: 300px;
+    width: auto;
+}
+
+
+button {
+    width: 325px;
+    height: 50px;
+    text-align: center;
+    background: #FF7600;
+    color: #52006A;
+    border: #CD113B;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: 0.27s;
+}
+
+button:hover {
+    cursor: grabbing;
+    background: #CD113B;
+    color: #FFA900;
+}
+
+.active {
+    background: #52006A;
+    color: #FF7600;
+}
